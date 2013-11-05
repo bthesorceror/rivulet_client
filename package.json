@@ -1,0 +1,32 @@
+{
+  "name": "rivulet_client",
+  "version": "0.0.0",
+  "description": "client for connecting to rivulet streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/tape test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bthesorceror/rivulet_client.git"
+  },
+  "keywords": [
+    "rivulet",
+    "sse"
+  ],
+  "author": "Brandon Farmer",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/bthesorceror/rivulet_client/issues"
+  },
+  "devDependencies": {
+    "tape": "~2.1.0",
+    "journeyman": "0.0.9",
+    "rivulet": "0.0.8"
+  },
+  "dependencies": {
+    "underscore": "~1.5.2",
+    "hyperquest": "~0.1.8",
+    "reconnect-core": "0.0.0"
+  }
+}
